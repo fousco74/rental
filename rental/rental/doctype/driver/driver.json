@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DR-{####}",
+ "creation": "2025-07-12 14:30:00.982007",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_ykle",
+  "firstname",
+  "number",
+  "fullname",
+  "column_break_kdtj",
+  "lastname",
+  "profile"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_break_ykle",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "Firstname"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Phone",
+   "label": "Number"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "label": "Fullname"
+  },
+  {
+   "fieldname": "column_break_kdtj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "Lastname"
+  },
+  {
+   "fieldname": "profile",
+   "fieldtype": "Attach",
+   "label": "Profile"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-12 14:38:19.929350",
+ "modified_by": "Administrator",
+ "module": "rental",
+ "name": "Driver",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "fullname"
+}
