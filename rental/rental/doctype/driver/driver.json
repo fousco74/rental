@@ -12,7 +12,8 @@
   "fullname",
   "column_break_kdtj",
   "lastname",
-  "profile"
+  "profile",
+  "vehicule"
  ],
  "fields": [
   {
@@ -47,12 +48,18 @@
    "fieldname": "profile",
    "fieldtype": "Attach",
    "label": "Profile"
+  },
+  {
+   "fieldname": "vehicule",
+   "fieldtype": "Link",
+   "label": "vehicule",
+   "options": "Vehicule"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-12 14:38:19.929350",
+ "modified": "2025-10-18 12:06:45.621961",
  "modified_by": "Administrator",
  "module": "rental",
  "name": "Driver",
