@@ -6,7 +6,9 @@
  "engine": "InnoDB",
  "field_order": [
   "vehicule",
-  "order"
+  "order",
+  "price",
+  "is_pay_"
  ],
  "fields": [
   {
@@ -20,12 +22,22 @@
    "fieldtype": "Link",
    "label": "order",
    "options": "Ride Order"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "is_pay_",
+   "fieldtype": "Data",
+   "label": "Is pay ?"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-18 12:08:49.478064",
+ "modified": "2025-10-28 15:41:52.545283",
  "modified_by": "Administrator",
  "module": "rental",
  "name": "Invoice",
