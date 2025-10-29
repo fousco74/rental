@@ -8,7 +8,9 @@
   "vehicule",
   "order",
   "price",
-  "is_pay_"
+  "is_pay_",
+  "test_1",
+  "test_2"
  ],
  "fields": [
   {
@@ -32,12 +34,22 @@
    "fieldname": "is_pay_",
    "fieldtype": "Data",
    "label": "Is pay ?"
+  },
+  {
+   "fieldname": "test_1",
+   "fieldtype": "Data",
+   "label": "TEST 1"
+  },
+  {
+   "fieldname": "test_2",
+   "fieldtype": "Data",
+   "label": "TEST 2"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-28 15:41:52.545283",
+ "modified": "2025-10-29 10:14:21.120392",
  "modified_by": "Administrator",
  "module": "rental",
  "name": "Invoice",
