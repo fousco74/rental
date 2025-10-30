@@ -7,10 +7,7 @@
  "field_order": [
   "vehicule",
   "order",
-  "price",
-  "is_pay_",
-  "test_1",
-  "test_2"
+  "price"
  ],
  "fields": [
   {
@@ -29,27 +26,12 @@
    "fieldname": "price",
    "fieldtype": "Currency",
    "label": "Price"
-  },
-  {
-   "fieldname": "is_pay_",
-   "fieldtype": "Data",
-   "label": "Is pay ?"
-  },
-  {
-   "fieldname": "test_1",
-   "fieldtype": "Data",
-   "label": "TEST 1"
-  },
-  {
-   "fieldname": "test_2",
-   "fieldtype": "Data",
-   "label": "TEST 2"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-29 10:14:21.120392",
+ "modified": "2025-10-30 11:28:29.590556",
  "modified_by": "Administrator",
  "module": "rental",
  "name": "Invoice",
