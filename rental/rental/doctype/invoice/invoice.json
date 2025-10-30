@@ -7,7 +7,8 @@
  "field_order": [
   "vehicule",
   "order",
-  "price"
+  "price",
+  "test_1"
  ],
  "fields": [
   {
@@ -26,12 +27,17 @@
    "fieldname": "price",
    "fieldtype": "Currency",
    "label": "Price"
+  },
+  {
+   "fieldname": "test_1",
+   "fieldtype": "Data",
+   "label": "test 1"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-30 11:28:29.590556",
+ "modified": "2025-10-30 15:21:22.353739",
  "modified_by": "Administrator",
  "module": "rental",
  "name": "Invoice",
